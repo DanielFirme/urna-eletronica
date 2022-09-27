@@ -8,24 +8,72 @@
 </head>
 <body>
     <div class="urna">
-        <div class="tela">
-            ...
+        <div class="tela-1 ativo">
+            <div class="d-1">
+                <div class="d-1--left">
+                    <div class="d-1-1">
+                        <span>SEU VOTO PARA</span>
+                    </div>
+                    <div class="d-1-2">
+                        <span>VEREADOR</span>
+                    </div>
+                    <div class="d-1-3">
+                        <div class="numero pisca"></div>
+                        <div class="numero"></div>
+                    </div>
+                    <div class="d-1-4">
+                        Nome: FULANO DE TAL <br>
+                        Partido: QQQ <br>
+                        Vice-Prefeito: BELTRANO DE TAL
+                    </div>
+                </div>
+                <div class="d-1--right">
+                    <div class="d-1-image">
+                        <img src="assets/images/84.jpg" alt="">
+                        Prefeito
+                    </div>
+                    <div class="d-1-image small">
+                        <img src="assets/images/84_2.jpg" alt="">
+                        Vice-Prefeito
+                    </div>
+                </div>
+            </div>
+            <div class="d-2">
+                Aperte a tecla:<br>
+                CONFIRMA para CONFIRMAR este voto<br>
+                CORRIGE para REINICIAR este voto<br>
+            </div>
+        </div>
+        <div class="tela-2">
+            <div class="fim pisca">FIM</div>
         </div>
         <div class="teclado">
             <div class="teclado--linha">
-                <div class="teclado--botao">1</div>
-                <div class="teclado--botao">2</div>
-                <div class="teclado--botao">3</div>
-                <div class="teclado--botao">4</div>
-                <div class="teclado--botao">5</div>
-                <div class="teclado--botao">6</div>
-                <div class="teclado--botao">7</div>
-                <div class="teclado--botao">8</div>
-                <div class="teclado--botao">9</div>
-                <div class="teclado--botao">0</div>
+                <div id="1" class="teclado--botao">1</div>
+                <div id="2" class="teclado--botao">2</div>
+                <div id="3" class="teclado--botao">3</div>
+            </div>
+            <div class="teclado--linha">
+                <div id="4" class="teclado--botao">4</div>
+                <div id="5" class="teclado--botao">5</div>
+                <div id="6" class="teclado--botao">6</div>
+            </div>
+            <div class="teclado--linha">
+                <div id="7" class="teclado--botao">7</div>
+                <div id="8" class="teclado--botao">8</div>
+                <div id="9" class="teclado--botao">9</div>
+            </div>
+            <div class="teclado--linha">
+                <div id="0" class="teclado--botao">0</div>
+            </div>
+            <div class="teclado--linha">
+                <div id="-1" class="teclado--botao botao--branco">BRANCO</div>
+                <div id="-2" class="teclado--botao botao--corrige">CORRIGE</div>
+                <div id="-3" class="teclado--botao botao--confirma">CONFIRMA</div>
             </div>
         </div>
     </div>
+    <script src="assets/js/etapas.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
