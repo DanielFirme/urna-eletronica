@@ -116,10 +116,11 @@ document.querySelector('.teclado').addEventListener('click', (event)=>{
         if(etapas[etapaAtual] !== undefined){
             comecarEtapa();
         } else {
+            music.play();
             tela1.classList.remove('ativo');
             tela2.classList.add('ativo');
             console.log(votos);
-            music.play();
+            
             setTimeout(()=>{
                 tela2.classList.remove('ativo');
                 tela1.classList.add('ativo');
